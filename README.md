@@ -1,2 +1,2 @@
 # madidoan.github.io
-## This is for Arch Linux documentation
+## This is a documentation of all projects done at The University of Tulsa by me.
