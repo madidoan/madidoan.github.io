@@ -1,11 +1,11 @@
 # Setting Up Wireguard for a VPN
-## Pre: make sure docker is installed and use UBuntu terminal
+## Pre: make sure docker is installed and use digital ocean terminal
 ## Make configuration directories
     mkdir -p ~/wireguard/
     mkdir -p ~/wireguard/config/
 ## Edit file with nano
     nano ~/wireguard/docker-compose.yml
-## Enter the following:
+## Enter the following (I had to change the version):
     version: '3.8'
     services:
       wireguard:
