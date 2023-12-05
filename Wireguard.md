@@ -39,3 +39,9 @@
     cd ~/wireguard/
 #
     docker-compose up -d
+# Find conf file and scp to local machine
+# Activate wireguard
+![2023-12-04](https://github.com/madidoan/madidoan.github.io/assets/124703457/ba183528-6b80-4859-a2ea-b8423101c46a)
+# After activation
+![2023-12-04 (2)](https://github.com/madidoan/madidoan.github.io/assets/124703457/4cf58f19-4810-4862-83c8-d9ea78c0ed29)
+
