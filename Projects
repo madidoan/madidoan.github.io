@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body {
+      background-color: rgba(0, 10, 125, 0.871);
+    }
+    h2   {color: #ffffff;}
+    p    {color: #ffffff;}
+    
+    </style>
+
+<h2>
+    You've made it to my project directory. I am sharing some (not all) projects from school. I am working on getting my python projects here so stay tuned.
+</h2>
+
+<p>
+<a href="https://madidoan.github.io/Projects/DeepFakeResearch" target="_blank">Research Report on Deepfakes!</a>
+
+<a href="https://madidoan.github.io/Projects/WordPress" target="_blank">WordPress Project</a>
+  
+<a href="https://madidoan.github.io/Projects/Wireguard" target="_blank">Wireguard Project</a>
+
+<a href="https://madidoan.github.io/Projects/archInstall" target="_blank">Arch Linux Installation Project (a headache in an md file)</a>
+
+</p>
