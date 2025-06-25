@@ -1,41 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magazine Style Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
-<style>
-body {
-  background-color: rgb(233, 255, 247);
-  outline: solid;
-  outline-color: darkblue;
-  background-image: "mecollage.jpg";
-  background-position: center;
-}
-h1   {color: rgb(16, 0, 122);}
-p    {color: rgb(16, 0, 122);}
-h4   {color: rgb(16, 0, 122);}
-h5  {color: rgb(16, 0, 122);}
-
-</style>
-
-
-<h1>Welcome! This is Madi's directory.</h1>
-<h2>    <img src="mecollage.jpg" alt="me" float: right; width="500" height="400"> </h2>
-
-<h5>P.S pls don't judge my web development skills :( I made this from scratch in vscode long ago.
-</h5>
 <body>
-<p> Please go to one of the following:</p>
-<p> 
-<a href="https://madidoan.github.io/Ilovetoyap" target="_blank">Learn More About Me</a>
-<br>
-<a href="https://madidoan.github.io/SongoftheDay" target="_blank">Song of the Day!</a>
-<br>
-<a href="https://madidoan.github.io/GoodFood" target="_blank">Exploring the World Through Food</a>
-<br>
-<a href="https://madidoan.github.io/Projects" target="_blank">Projects</a>
-<br>
-<a href="https://madidoan.github.io/ImGoingPlaces" target="_blank">Traveling</a> 
-</p>
+  <section class="page page-hero">
+    <div class="content">
+      <h1>Beyond Copenhagen</h1>
+      <p class="subtitle">Issue 2024</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="content">
+      <h2>Scandinavian Design</h2>
+      <p>A journey through minimalism, functionality, and beauty.</p>
+      <img src="your-image.jpg" alt="Scandinavian Interior">
+    </div>
+  </section>
+
+  <section class="page dark">
+    <div class="content">
+      <h2>Urban Nature</h2>
+      <p>How Copenhagen blends nature into its cityscape.</p>
+    </div>
+  </section>
 </body>
 </html>

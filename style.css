@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #111;
+    scroll-behavior: smooth;
+  }
+  
+  .page {
+    height: 100vh;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f5f5f5;
+  }
+  
+  .page-hero {
+    background: url('hero-image.jpg') no-repeat center center / cover;
+    color: white;
+  }
+  
+  .page-hero .content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .page h1, .page h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .page .subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  .page img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+  
+  .page.dark {
+    background: #111;
+    color: white;
+  }
+  
