@@ -1,94 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>& Main</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-  <style>
-    body {
-      font-family: Georgia, serif;
-      background-color: #f8f5f0;
-      margin: 0;
-    }
-
-    .page-border {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 2rem;
-      border: 12px double #002309;
-      background-color: #fffdfa;
-      box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
-    }
-
-    .title-box {
-      background-color: #f4ebe3;
-      padding: 1rem 2rem;
-      margin-bottom: 2rem;
-      border: 2px solid #ffe5cd;
-      text-align: center;
-      font-size: 2.5rem;
-      font-weight: bold;
-      font-family: 'Cormorant Garamond', serif;
-      color: #b43300;
-      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-    }
-
-    .w3-bar {
-      margin-bottom: 2rem;
-    }
-
-    .city {
-      margin-top: 1.5rem;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-
   <div class="page-border">
-    <div class="title-box">&amp; Main</div>
+    <header class="title-box">&amp; Main</header>
 
-    <!-- Navigation bar -->
-    <div class="w3-bar w3-black">
-      <button class="w3-bar-item w3-button" onclick="openCity('Tulsa')">Tulsa</button>
-      <button class="w3-bar-item w3-button" onclick="openCity('SlowLiving')">Slow Living</button>
-      <button class="w3-bar-item w3-button" onclick="openCity('Arts')">Arts</button>
-    </div>
+    <nav class="nav-bar">
+      <button onclick="showSection('tulsa')">Tulsa</button>
+      <button onclick="showSection('slow')">Slow Living</button>
+      <button onclick="showSection('arts')">Arts</button>
+    </nav>
 
-    <!-- Tab content sections -->
-    <div id="Tulsa" class="w3-container w3-display-container city">
-      <span onclick="this.parentElement.style.display='none'"
-        class="w3-button w3-large w3-display-topright">&times;</span>
-      <h2>Tulsa</h2>
-      <p>Stories from Red Fork, Riverside, and the city that shapes us.</p>
-    </div>
+    <main>
+      <section id="tulsa" class="content-section">
+        <h2>Tulsa</h2>
+        <p>Stories from Red Fork, Riverside, and the city that shapes us.</p>
+      </section>
 
-    <div id="SlowLiving" class="w3-container w3-display-container city" style="display:none">
-      <span onclick="this.parentElement.style.display='none'"
-        class="w3-button w3-large w3-display-topright">&times;</span>
-      <h2>Slow Living</h2>
-      <p>Recipes, morning light, and how to live softer in a fast world.</p>
-    </div>
+      <section id="slow" class="content-section hidden">
+        <h2>Slow Living</h2>
+        <p>Recipes, morning light, and how to live softer in a fast world.</p>
+      </section>
 
-    <div id="Arts" class="w3-container w3-display-container city" style="display:none">
-      <span onclick="this.parentElement.style.display='none'"
-        class="w3-button w3-large w3-display-topright">&times;</span>
-      <h2>Arts</h2>
-      <p>Galleries, studios, and stories from Tulsa’s creative corners.</p>
-    </div>
+      <section id="arts" class="content-section hidden">
+        <h2>Arts</h2>
+        <p>Galleries, studios, and stories from Tulsa’s creative corners.</p>
+      </section>
+    </main>
   </div>
 
   <script>
-    function openCity(cityName) {
-      var i;
-      var x = document.getElementsByClassName("city");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      document.getElementById(cityName).style.display = "block";
+    function showSection(id) {
+      document.querySelectorAll('.content-section').forEach(section => {
+        section.classList.add('hidden');
+      });
+      document.getElementById(id).classList.remove('hidden');
     }
   </script>
-
 </body>
 </html>
