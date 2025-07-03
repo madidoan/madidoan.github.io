@@ -2,45 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>& Main</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>& Main – Tulsa Journal</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page-border">
-    <header class="title-box">&amp; Main</header>
+  <div class="wrapper">
+    <h1>&amp; Main</h1>
+    <p class="subtitle">A lifestyle zine for Tulsa & beyond</p>
 
-    <nav class="nav-bar">
-      <button onclick="showSection('tulsa')">Tulsa</button>
-      <button onclick="showSection('slow')">Slow Living</button>
-      <button onclick="showSection('arts')">Arts</button>
+    <hr />
+
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Tulsa</a> |
+      <a href="#">Slow Living</a> |
+      <a href="#">Arts</a> |
+      <a href="#">About</a>
     </nav>
 
-    <main>
-      <section id="tulsa" class="content-section">
-        <h2>Tulsa</h2>
-        <p>Stories from Red Fork, Riverside, and the city that shapes us.</p>
-      </section>
+    <marquee behavior="scroll" direction="left">Welcome to the cozy corner of the internet 🌻</marquee>
 
-      <section id="slow" class="content-section hidden">
-        <h2>Slow Living</h2>
-        <p>Recipes, morning light, and how to live softer in a fast world.</p>
-      </section>
+    <div class="content">
+      <h2>Latest Post</h2>
+      <p>Welcome to our inaugural issue. This month, we’re visiting the Pearl District, baking cherry galettes, and chatting with a painter from Red Fork.</p>
+    </div>
 
-      <section id="arts" class="content-section hidden">
-        <h2>Arts</h2>
-        <p>Galleries, studios, and stories from Tulsa’s creative corners.</p>
-      </section>
-    </main>
+    <footer>
+      <p>© 2025 & Main. Hand-coded with <span style="color:red">❤️</span> in Tulsa.</p>
+    </footer>
   </div>
-
-  <script>
-    function showSection(id) {
-      document.querySelectorAll('.content-section').forEach(section => {
-        section.classList.add('hidden');
-      });
-      document.getElementById(id).classList.remove('hidden');
-    }
-  </script>
 </body>
 </html>

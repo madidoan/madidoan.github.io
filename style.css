@@ -1,72 +1,65 @@
-/* Base styling */
 body {
-    font-family: Georgia, serif;
-    background-color: #f8f5f0;
+    background-color: #fffff8;
+    color: #000080;
+    font-family: "Times New Roman", serif;
     margin: 0;
-    padding: 2rem;
-    color: #333;
+    padding: 0;
+    text-align: center;
   }
   
-  /* Page border */
-  .page-border {
-    max-width: 800px;
+  .wrapper {
+    max-width: 700px;
     margin: 0 auto;
     padding: 2rem;
-    border: 12px double #c2b59b;
-    background-color: #fffdfa;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border: 3px double #000080;
+    background-color: #ffffff;
   }
   
-  /* Title */
-  .title-box {
-    background-color: #f4ebe3;
-    border: 2px solid #c2b59b;
-    text-align: center;
-    font-size: 2.5rem;
+  h1 {
+    font-size: 3rem;
+    color: #800000;
+    text-shadow: 1px 1px #ffcc00;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  nav {
+    margin: 1rem 0;
     font-weight: bold;
-    font-family: 'Cormorant Garamond', serif;
-    color: #5c3b2e;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Navigation bar */
-  .nav-bar {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
+  nav a {
+    color: #000080;
+    text-decoration: none;
+    margin: 0 0.5rem;
   }
   
-  .nav-bar button {
-    background-color: #5c3b2e;
-    color: #fffdfa;
-    border: none;
-    padding: 0.5rem 1.2rem;
-    font-size: 1rem;
-    cursor: pointer;
-    font-family: Georgia, serif;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
+  nav a:hover {
+    text-decoration: underline;
   }
   
-  .nav-bar button:hover {
-    background-color: #7c513c;
+  marquee {
+    background-color: #ffebcd;
+    color: #000;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    font-family: "Courier New", monospace;
   }
   
-  /* Content */
-  .content-section {
-    display: block;
-    animation: fadeIn 0.4s ease-in;
+  .content {
+    text-align: left;
+    margin-top: 2rem;
   }
   
-  .hidden {
-    display: none;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
   }
   
