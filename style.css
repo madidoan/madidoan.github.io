@@ -12,7 +12,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    border: 12px #00093f;
+    border: 12px double #c2b59b;
     background-color: #fffdfa;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   }
