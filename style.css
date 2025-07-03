@@ -1,7 +1,7 @@
 body {
-    background-color: #fffff8;
-    color: #000080;
-    font-family: "Times New Roman", serif;
+    background-color: #fffdf8;
+    color: #1a1a1a;
+    font-family: "Georgia", serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -9,31 +9,31 @@ body {
   
   .wrapper {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 2rem auto;
     padding: 2rem;
-    border: 3px double #000080;
+    border: 3px double #999;
     background-color: #ffffff;
   }
   
   h1 {
     font-size: 3rem;
-    color: #800000;
-    text-shadow: 1px 1px #ffcc00;
+    color: #4b2e2e;
+    margin-bottom: 0.2rem;
   }
   
   .subtitle {
     font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 1rem;
+    color: #555;
+    margin-top: 0;
   }
   
   nav {
     margin: 1rem 0;
-    font-weight: bold;
+    font-size: 1rem;
   }
   
   nav a {
-    color: #000080;
+    color: #4b2e2e;
     text-decoration: none;
     margin: 0 0.5rem;
   }
@@ -42,12 +42,11 @@ body {
     text-decoration: underline;
   }
   
-  marquee {
-    background-color: #ffebcd;
-    color: #000;
-    padding: 0.5rem;
-    margin: 1rem 0;
-    font-family: "Courier New", monospace;
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 1rem auto;
+    width: 60%;
   }
   
   .content {
@@ -58,7 +57,7 @@ body {
   footer {
     margin-top: 3rem;
     font-size: 0.9rem;
-    color: #666;
+    color: #888;
     border-top: 1px solid #ccc;
     padding-top: 1rem;
   }
