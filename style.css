@@ -1,64 +1,91 @@
+/* Reset and Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #0e2b00;
-    color: #1a1a1a;
-    font-family: "Georgia", serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .wrapper {
-    max-width: 700px;
-    margin: 2rem auto;
-    padding: 2rem;
-    border: 5px solid #cb5100;
-    background-color: #e9ece8;
-  }
-  
-  h1 {
-    font-size: 3rem;
-    color: #cb5100;
-    margin-bottom: 0.2rem;
-  }
-  
-  .subtitle {
-    font-size: 1.2rem;
-    color: #0e2b00;
-    margin-top: 0;
-  }
-  
-  nav {
-    margin: 1rem 0;
-    font-size: 1rem;
-  }
-  
-  nav a {
-    color: #0e2b00;
-    text-decoration: none;
-    margin: 0 0.5rem;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 1rem auto;
-    width: 60%;
-  }
-  
-  .content {
-    text-align: left;
-    margin-top: 2rem;
-  }
-  
-  footer {
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    color: #310000;
-    border-top: 1px solid #ccc;
-    padding-top: 1rem;
-  }
-  
+  font-family: "Times New Roman", Times, serif;
+  background: white;
+  color: #000;
+}
+
+#page {
+  width: 760px;
+  margin: 0 auto;
+}
+
+/* Top Bar */
+#top-bar {
+  background: black;
+  color: white;
+  font-size: 14px;
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Layout */
+#main-layout {
+  display: flex;
+  border-top: 2px solid black;
+  margin-top: 10px;
+}
+
+/* Sidebar */
+#sidebar {
+  width: 220px;
+  padding: 15px;
+  border-right: 1px solid #999;
+  background: #f5f5f5;
+}
+
+#sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Main Content */
+#content {
+  padding: 15px;
+  width: 100%;
+}
+
+.image-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.image-row img {
+  max-width: 100px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+/* Paragraphs */
+#content p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* Highlight box (like "Send Me News") */
+.highlight-box {
+  background: #f3f1d6;
+  border: 1px solid #999;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+/* Dropdown styling */
+select {
+  font-family: inherit;
+  font-size: 14px;
+  margin-top: 5px;
+  width: 100%;
+  padding: 2px;
+}
