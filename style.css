@@ -19,7 +19,7 @@ body {
 
 /* Top Bar */
 #top-bar {
-  background-color: black;
+  background-color: #053d00;
   color: white;
   font-size: 14px;
   padding: 4px 10px;
@@ -65,9 +65,11 @@ body {
 
 /* Content Area */
 #content {
-  padding: 15px;
-  width: 100%;
+  column-count: 2;
+  column-gap: 40px; /* space between the columns */
+  line-height: 1.6;
 }
+
 
 /* Images */
 .image-row {
