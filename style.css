@@ -1,5 +1,5 @@
 body {
-    background-color: #fffdf8;
+    background-color: #0e2b00;
     color: #1a1a1a;
     font-family: "Georgia", serif;
     margin: 0;
@@ -11,8 +11,8 @@ body {
     max-width: 700px;
     margin: 2rem auto;
     padding: 2rem;
-    border: 3px double #999;
-    background-color: #ffffff;
+    border: 3px #cb5100;
+    background-color: #ffdac4;
   }
   
   h1 {
@@ -23,7 +23,7 @@ body {
   
   .subtitle {
     font-size: 1.2rem;
-    color: #555;
+    color: #0e2b00;
     margin-top: 0;
   }
   
