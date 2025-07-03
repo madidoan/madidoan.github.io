@@ -12,9 +12,9 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    border: 12px;
+    border: 12px #00093f;
     background-color: #fffdfa;
-    box-shadow: 5px 5px 20px rgb(135, 1, 1);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   }
   
   /* Title */
@@ -40,8 +40,8 @@ body {
   }
   
   .nav-bar button {
-    background-color: #090377;
-    color: #000782;
+    background-color: #5c3b2e;
+    color: #fffdfa;
     border: none;
     padding: 0.5rem 1.2rem;
     font-size: 1rem;
@@ -52,7 +52,7 @@ body {
   }
   
   .nav-bar button:hover {
-    background-color: #ac3900;
+    background-color: #7c513c;
   }
   
   /* Content */
