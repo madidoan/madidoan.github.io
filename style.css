@@ -1,4 +1,4 @@
-/* Reset and Fonts */
+/* Reset and Font */
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +7,11 @@
 
 body {
   font-family: "Helvetica", Arial, sans-serif;
-  background: white;
-  color: #000;
+  background-color: white;
+  color: black;
 }
 
+/* Page Container */
 #page {
   width: 760px;
   margin: 0 auto;
@@ -18,25 +19,24 @@ body {
 
 /* Top Bar */
 #top-bar {
-  background: black;
+  background-color: black;
   color: white;
   font-size: 14px;
   padding: 4px 10px;
 }
 
-/* Layout */
-#main-layout {
+/* Main Layout: Sidebar + Content */
+#main-columns {
   display: flex;
   border-top: 2px solid black;
-  margin-top: 10px;
 }
 
 /* Sidebar */
 #sidebar {
   width: 220px;
   padding: 15px;
+  background-color: #f5f5f5;
   border-right: 1px solid #999;
-  background: #f5f5f5;
 }
 
 #sidebar h2 {
@@ -45,7 +45,7 @@ body {
 }
 
 #sidebar ul {
-  list-style-type: none;
+  list-style-type: none; /* removes the bullet points */
   padding-left: 0;
 }
 
@@ -63,12 +63,13 @@ body {
   text-decoration: underline;
 }
 
-/* Main Content */
+/* Content Area */
 #content {
   padding: 15px;
   width: 100%;
 }
 
+/* Images */
 .image-row {
   display: flex;
   gap: 10px;
@@ -88,7 +89,7 @@ body {
   line-height: 1.4;
 }
 
-/* Highlight box (like "Send Me News") */
+/* Highlight Box (like "Send Me News") */
 .highlight-box {
   background: #f3f1d6;
   border: 1px solid #999;
