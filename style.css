@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica", Arial, sans-serif;
   background: white;
   color: #000;
 }
@@ -22,9 +22,6 @@ body {
   color: white;
   font-size: 14px;
   padding: 4px 10px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 /* Layout */
@@ -45,6 +42,25 @@ body {
 #sidebar h2 {
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#sidebar li {
+  margin-bottom: 10px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+#sidebar a:hover {
+  text-decoration: underline;
 }
 
 /* Main Content */
@@ -79,13 +95,4 @@ body {
   padding: 10px;
   margin: 15px 0;
   font-size: 14px;
-}
-
-/* Dropdown styling */
-select {
-  font-family: inherit;
-  font-size: 14px;
-  margin-top: 5px;
-  width: 100%;
-  padding: 2px;
 }
