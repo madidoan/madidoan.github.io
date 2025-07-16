@@ -81,11 +81,11 @@ body {
 }
 
 
-/* Images */
-.image-row {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 15px;
+.image-row img {
+  max-width: 200px; /* or use a fixed width */
+  width: 100%;      /* if you want it to fill available space in flex container */
+  height: auto;
+  border: 1px solid #ccc;
 }
 
 .image-row img {
