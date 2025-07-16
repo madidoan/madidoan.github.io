@@ -45,9 +45,9 @@ html, body {
 
 /* Sidebar */
 #sidebar {
-  width: 220px;
+  width: 180px;
   padding: 15px;
-  background-color: #be5200;
+  background-color: #a8bba8;
   border-right: 1px solid #999;
 }
 
