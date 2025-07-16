@@ -5,23 +5,28 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("pics/background.png"); /* update the path if needed */
-  background-size: cover;        /* Stretch to cover the entire screen */
-  background-repeat: no-repeat;  /* Don’t repeat the image */
-  background-position: center;   /* Center the image */
-  min-height: 100vh;             /* Ensure body is at least full screen height */
-  margin: 0;                     /* Remove default spacing */
+html, body {
+  height: 100%; /* Helps if the content is short */
+  min-height: 100%;
+  margin: 0;
   padding: 0;
+  background-image: url("pics/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Optional: makes the background stay still on scroll */
 }
 
+
 #page {
-  background-color: rgba(255, 255, 255, 0.9); /* Light overlay */
-  padding: 40px;
   max-width: 760px;
   margin: 0 auto;
+  padding: 20px;                /* adds space inside border */
+  background-color: rgba(255,255,255,0.9); /* optional, so background is readable */
   border: 1px solid #ccc;
+  box-sizing: border-box;      /* includes padding in width calculation */
 }
+
 
 
 /* Top Bar */
@@ -80,17 +85,11 @@ body {
   font-size: 17px;
 }
 
-
 .image-row img {
-  max-width: 200px; /* or use a fixed width */
-  width: 100%;      /* if you want it to fill available space in flex container */
-  height: auto;
-  border: 1px solid #ccc;
-}
-
-.image-row img {
-  max-width: 100px;
-  height: auto;
+  width: 100%;         /* Take full width of its container */
+  max-width: 200px;    /* Limit width so it's not huge */
+  height: 150px;       /* Force height for uniformity */
+  object-fit: cover;   /* Crop to fit the box neatly */
   border: 1px solid #ccc;
 }
 
