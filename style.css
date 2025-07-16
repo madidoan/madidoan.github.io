@@ -6,19 +6,23 @@
 }
 
 body {
-  font-size: 18px;
-  background-image: url("pics/remain.png");
-  background-size: 600px auto;
-  background-repeat: no-repeat;
-  background-position: center;  
+  background-image: url("pics/background.png"); /* update the path if needed */
+  background-size: cover;        /* Stretch to cover the entire screen */
+  background-repeat: no-repeat;  /* Don’t repeat the image */
+  background-position: center;   /* Center the image */
+  min-height: 100vh;             /* Ensure body is at least full screen height */
+  margin: 0;                     /* Remove default spacing */
+  padding: 0;
 }
 
-
-/* Page Container */
 #page {
-  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.9); /* Light overlay */
+  padding: 40px;
+  max-width: 760px;
   margin: 0 auto;
+  border: 1px solid #ccc;
 }
+
 
 /* Top Bar */
 #top-bar {
