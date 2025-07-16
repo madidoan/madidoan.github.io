@@ -7,23 +7,10 @@
 
 body {
   font-size: 18px;
-  /*
   background-image: url("pics/remain.png");
-  background-size: 800px auto;       /* Makes the image cover the whole screen
-  background-repeat: no-repeat; /* Prevents repeating
-  background-position: center;  /* Centers the image */
-}
-
-.standalone-bg {
-  width: 100%;
-  text-align: center;
-  margin: 40px 0; /* Add spacing above and below */
-}
-
-.standalone-bg img {
-  max-width: 100%;   /* So it scales responsively */
-  height: auto;      /* Maintain aspect ratio */
-  display: inline-block;
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+  background-position: center;  
 }
 
 
