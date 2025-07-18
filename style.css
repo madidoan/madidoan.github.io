@@ -45,9 +45,9 @@ html, body {
 
 /* Sidebar */
 #sidebar {
-  width: 180px;
+  width: 130px;
   padding: 15px;
-  background-color: #a8bba8;
+  background-color: #ede6db;
   border-right: 1px solid #999;
 }
 
@@ -108,3 +108,10 @@ html, body {
   margin: 15px 0;
   font-size: 14px;
 }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
