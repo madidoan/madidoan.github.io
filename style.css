@@ -19,7 +19,7 @@ html, body {
 
 
 #page {
-  max-width: 760px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;                /* adds space inside border */
   background-color: rgba(255,255,255,0.9); /* optional, so background is readable */
@@ -45,13 +45,13 @@ html, body {
 
 /* Sidebar */
 #sidebar {
-  width: 130px;
+  width: 180px;
   padding: 15px;
   background-color: #ede6db;
   border-right: 1px solid #999;
 }
 
-#sidebar h1 {
+#sidebar h1 { 
   font-size: 40px;
   margin-bottom: 15px;
 }
