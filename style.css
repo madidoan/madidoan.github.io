@@ -19,7 +19,7 @@ html, body {
 
 
 #page {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;                /* adds space inside border */
   background-color: rgba(255,255,255,0.9); /* optional, so background is readable */
@@ -99,6 +99,7 @@ html, body {
   margin-bottom: 15px;
   font-size: 15px;
   line-height: 1.4;
+  margin-left: 30px;
 }
 
 /* Highlight Box (like "Send Me News") */
