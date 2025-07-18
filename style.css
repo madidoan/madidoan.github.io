@@ -92,6 +92,7 @@ html, body {
   height: 150px;       /* Force height for uniformity */
   object-fit: cover;   /* Crop to fit the box neatly */
   border: 1px solid #ccc;
+  padding-left: 15%;
 }
 
 /* Paragraphs */
