@@ -124,12 +124,14 @@ html, body {
   border: none;
 }
 
-.img {
-  max-width: 150px;    /* Limit width so it's not huge */
-  height: 200px;       /* Force height for uniformity */
-  object-fit: cover;   /* Crop to fit the box neatly */
-  border: 1px solid #ccc;
+.side-image {
+  max-width: 100%;
+  width: 300px; /* Or adjust as needed */
+  height: auto;
+  display: block;
+  margin: 1rem auto;
 }
+
 
 footer {
   text-align: center;
