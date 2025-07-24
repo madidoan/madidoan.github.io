@@ -111,13 +111,18 @@ html, body {
   font-size: 14px;
 }
 
-#map {
+.map-container {
   width: 100%;
-  max-width: 800px;  /* or match your layout's width */
+  max-width: 100%;
   height: 400px;
-  margin: 2rem auto; /* centers it */
-  border: 1px solid #ccc;
 }
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 
 footer {
   text-align: center;
