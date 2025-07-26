@@ -87,6 +87,7 @@ html, body {
 }
 
 .image-row {
+  max-width: 200px;
   display: flex;
   justify-content: center; /* or space-between */
   gap: 1rem; /* space between images */
