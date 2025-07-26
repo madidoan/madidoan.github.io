@@ -126,6 +126,7 @@ html, body {
 
 .portrait-row {
   display: flex;
+  flex-direction: row;
   justify-content: center;   /* centers them horizontally */
   gap: 1rem;                  /* space between the images */
   margin: 1rem 0;
