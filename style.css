@@ -148,6 +148,13 @@ html, body {
   margin: 1rem auto;
 }
 
+.land-image {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
 
 footer {
   text-align: center;
