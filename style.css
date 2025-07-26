@@ -132,6 +132,14 @@ html, body {
   margin: 1rem 0;
 }
 
+.landscape-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centers them horizontally */
+  gap: 1rem;                  /* space between the images */
+  margin: 1rem 0;
+}
+
 .side-image {
   max-width: 100%;
   width: 150px;
