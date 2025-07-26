@@ -124,9 +124,16 @@ html, body {
   border: none;
 }
 
+.portrait-row {
+  display: flex;
+  justify-content: center;   /* centers them horizontally */
+  gap: 1rem;                  /* space between the images */
+  margin: 1rem 0;
+}
+
 .side-image {
   max-width: 100%;
-  width: 200px; 
+  width: 150px;
   height: auto;
   display: block;
   margin: 1rem auto;
