@@ -91,6 +91,7 @@ html, body {
   max-width: 200px;    /* Limit width so it's not huge */
   height: 150px;       /* Force height for uniformity */
   object-fit: cover;   /* Crop to fit the box neatly */
+  border: 1px solid #ccc;
 }
 
 /* Paragraphs */
@@ -124,9 +125,11 @@ html, body {
 }
 
 .side-image {
-  width: 250px; 
+  max-width: 100%;
+  width: 200px; 
   height: auto;
-  border-radius: 6px;
+  display: block;
+  margin: 1rem auto;
 }
 
 
