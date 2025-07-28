@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.5px;
+}
+
+
 html, body {
   height: 100%; /* Helps if the content is short */
   min-height: 100%;
@@ -15,6 +21,12 @@ html, body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed; /* Optional: makes the background stay still on scroll */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
 }
 
 
@@ -45,7 +57,7 @@ html, body {
 
 /* Sidebar */
 #sidebar {
-  width: 190px;
+  width: 200px;
   padding: 15px;
   background-color: #ede6db;
   border-right: 1px solid #999;
