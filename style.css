@@ -7,7 +7,7 @@
 
 h1, h2 {
   font-family: "EB Garamond", serif;
-  
+
 }
 
 
@@ -167,6 +167,19 @@ hr {
   display: block;
   margin: 1rem auto;
 }
+
+.polaroid {
+  width: 180px;
+  padding: 10px;
+  background: white;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  transform: rotate(-2deg);
+  margin: 15px;
+}
+.polaroid:nth-child(even) {
+  transform: rotate(3deg);
+}
+
 
 footer {
   text-align: center;
