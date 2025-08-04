@@ -162,7 +162,7 @@ hr {
 
 .side-image {
   max-width: 100%;
-  width: 150px;
+  width: 130px;
   height: auto;
   display: block;
   margin: 1rem auto;
@@ -196,16 +196,17 @@ footer {
 
 .three-column {
   display: flex;
-  width: 100%;
-  max-width: 1200px;
-  gap: 2rem;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px; /* increased from something smaller */
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 /* Individual columns */
 .left-column,
-.middle-column,
 .right-column {
-  flex: 1;
+  flex: 1.2;
 }
 
 /* Middle column images stacked and centered */
@@ -214,4 +215,5 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  flex: 0.7;
 }
