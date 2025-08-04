@@ -23,7 +23,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -161,8 +161,6 @@ hr {
   width: 100%;
   max-width: 250px;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .land-image {
@@ -186,11 +184,9 @@ hr {
 }
 
 footer {
-  background: #eee;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  color: #333;
 }
 
 .three-column {
