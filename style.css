@@ -35,7 +35,7 @@ hr {
 
 
 #page {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 20px;                /* adds space inside border */
   background-color: rgba(255,255,255,0.9); /* optional, so background is readable */
