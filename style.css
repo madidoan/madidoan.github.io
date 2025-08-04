@@ -187,3 +187,31 @@ footer {
   font-size: 14px;
 }
 
+#split-content {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* 2 text columns + 1 image column */
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.text-col {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.image-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.image-col img {
+  width: 150px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+
