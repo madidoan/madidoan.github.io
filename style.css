@@ -158,11 +158,11 @@ hr {
 }
 
 .side-image {
-  max-width: 100%;
-  width: 150px;
+  width: 100%;
+  max-width: 250px;
   height: auto;
-  display: block;
-  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .land-image {
@@ -185,9 +185,8 @@ hr {
   transform: rotate(3deg);
 }
 
-
 footer {
-  background-color: #eee;
+  background: #eee;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
@@ -196,8 +195,8 @@ footer {
 
 .three-column {
   display: flex;
-  max-width: 1200px;
   width: 100%;
+  max-width: 1200px;
   gap: 2rem;
 }
 
@@ -208,11 +207,10 @@ footer {
   flex: 1;
 }
 
-/* Middle column image stack */
+/* Middle column images stacked and centered */
 .middle-column {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
-
