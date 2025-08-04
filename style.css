@@ -193,7 +193,7 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  max-width: 1200px; /* increased from something smaller */
+  max-width: 1300px; /* increased from something smaller */
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -201,7 +201,7 @@ footer {
 /* Individual columns */
 .left-column,
 .right-column {
-  flex: 1.2;
+  flex: 1.4;
 }
 
 /* Middle column images stacked and centered */
