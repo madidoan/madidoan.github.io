@@ -158,9 +158,11 @@ hr {
 }
 
 .side-image {
-  width: 100%;
-  max-width: 250px;
+  max-width: 100%;
+  width: 150px;
   height: auto;
+  display: block;
+  margin: 1rem auto;
 }
 
 .land-image {
@@ -185,8 +187,8 @@ hr {
 
 footer {
   text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
+  padding: 10px;
+  font-size: 14px;
 }
 
 .three-column {
