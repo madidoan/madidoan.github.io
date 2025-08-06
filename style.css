@@ -1,4 +1,4 @@
-/* Reset and Font */
+
 * {
   margin: 0;
   padding: 0;
@@ -37,14 +37,14 @@ hr {
 #page {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;                /* adds space inside border */
-  background-color: rgba(255,255,255,0.9); /* optional, so background is readable */
+  padding: 20px;               
+  background-color: rgba(255,255,255,0.9); 
   border: 1px solid #ccc;
-  box-sizing: border-box;      /* includes padding in width calculation */
+  box-sizing: border-box;      
 }
 
 
-/* Top Bar */
+
 #top-bar {
   background-color: #053d00;
   color: white;
@@ -52,13 +52,13 @@ hr {
   padding: 4px 10px;
 }
 
-/* Main Layout: Sidebar + Content */
+
 #main-columns {
   display: flex;
   border-top: 2px solid black;
 }
 
-/* Sidebar */
+
 #sidebar {
   width: 200px;
   padding: 15px;
@@ -72,7 +72,7 @@ hr {
 }
 
 #sidebar ul {
-  list-style-type: none; /* removes the bullet points */
+  list-style-type: none;
   padding-left: 0;
 }
 
@@ -92,24 +92,24 @@ hr {
   text-decoration: underline;
 }
 
-/* Content Area */
+
 #content {
   column-count: 2;
-  column-gap: 50px; /* space between the columns */
+  column-gap: 50px; 
   line-height: 1.6;
   font-size: 17px;
   margin-left: 30px;
 }
 
 .image-row img {
-  width: 100%;         /* Take full width of its container */
-  max-width: 200px;    /* Limit width so it's not huge */
-  height: 150px;       /* Force height for uniformity */
-  object-fit: cover;   /* Crop to fit the box neatly */
+  width: 100%;         
+  max-width: 200px;    
+  height: 150px;       
+  object-fit: cover;   
   border: 1px solid #ccc;
 }
 
-/* Paragraphs */
+
 #content p {
   margin-bottom: 15px;
   font-size: 15px;
@@ -117,7 +117,7 @@ hr {
   margin-left: 30px;
 }
 
-/* Highlight Box (like "Send Me News") */
+
 .highlight-box {
   background: #f3f1d6;
   border: 1px solid #999;
@@ -142,16 +142,16 @@ hr {
 .portrait-row {
   display: flex;
   flex-direction: row;
-  justify-content: center;   /* centers them horizontally */
-  gap: 1rem;                  /* space between the images */
+  justify-content: center;   
+  gap: 1rem;                  
   margin: 1rem 0;
 }
 
 .landscape-row {
   display: flex;
   flex-direction: row;
-  justify-content: center;   /* centers them horizontally */
-  gap: 1rem;                  /* space between the images */
+  justify-content: center;   
+  gap: 1rem;                  
   margin: 1rem 0;
 }
 
@@ -193,18 +193,18 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  max-width: 1300px; /* increased from something smaller */
+  max-width: 1300px; 
   margin: 0 auto;
   padding: 40px 20px;
 }
 
-/* Individual columns */
+
 .left-column,
 .right-column {
   flex: 1.4;
 }
 
-/* Middle column images stacked and centered */
+
 .middle-column {
   display: flex;
   flex-direction: column;
